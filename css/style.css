@@ -1,0 +1,72 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "CircularStd";
+    src: url(../fonts/CircularStd-Black.woff2) format("woff2"), url(../fonts/CircularStd-Black.woff) format("woff");
+    font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.logo{
+    background-color: #4e4861;
+    color: white;
+    width: 100%;
+    padding: 30px 30px;
+    font-size: 45px;
+    font-family: "CircularStd";
+    text-align: left;
+    text-decoration: overline;
+    text-shadow: 10px 5px 5px rgb(17, 1, 17);
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans';
+}
+
+.headline{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.image{
+    text-align: center;
+}
+
+.text{
+    margin: 15px 15px 0 15px;
+    line-height: 30px;
+    text-align: justify;
+    font-style: italic;
+    line-height: 25px;
+    word-spacing: 10px;
+}
+
+.list{
+    margin-left: 30px;
+    line-height: 30px;
+    font-style: oblique;
+}
+
+li{
+    list-style: disc;
+    letter-spacing: 5px;
+}
+
+.est{
+    background-color: #000;
+    color: white;
+    width: 100%;
+    padding: 30px 30px;
+    font-size: 15px;
+    font-family: "CircularStd";
+    text-align: right;
+    text-decoration: underline;
+}
